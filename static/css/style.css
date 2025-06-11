@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+}
+
+#imageContainer {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#imageContainer img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+
+#resultsContainer {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.face-result {
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #e9ecef;
+}
+
+.recognized {
+    border-left: 4px solid #28a745;
+}
+
+.not-recognized {
+    border-left: 4px solid #dc3545;
+}
+
+.progress {
+    height: 20px;
+}
+
+.fixed-bottom {
+    z-index: 1030;
+}
+
+/* Custom scrollbar */
+#resultsContainer::-webkit-scrollbar {
+    width: 8px;
+}
+
+#resultsContainer::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+#resultsContainer::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+#resultsContainer::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
